@@ -1,30 +1,28 @@
 # Proyecto de Base de Datos para Préstamos de Dinero
 Este repositorio contiene la documentación y la implementación de una base de datos diseñada para una pequeña empresa dedicada a préstamos de dinero. La base de datos está documentada utilizando Swagger, lo que facilita la comprensión de la estructura y operaciones disponibles.
 
-#Descripción del Proyecto
+## Descripción del Proyecto
 La empresa de préstamos de dinero necesita gestionar de manera eficiente la información relacionada con sus clientes, préstamos y transacciones financieras. La base de datos proporciona una solución centralizada para almacenar y recuperar estos datos, permitiendo una administración efectiva de la información.
 
-#Estructura de la Base de Datos
+## Estructura de la Base de Datos
 La base de datos está diseñada con las siguientes entidades principales:
 
-Clientes: Almacena la información personal de los clientes, como nombre, dirección, contacto, etc.
-Préstamos: Registra los detalles de cada préstamo, incluyendo el monto, la tasa de interés, el plazo y el estado del préstamo.
-Transacciones: Rastrea todas las transacciones financieras asociadas con los préstamos, como pagos, abonos y cargos.
-La relación entre estas entidades está cuidadosamente establecida para garantizar la integridad de los datos y facilitar las consultas relacionadas.
+Advisors: Almacena la información como, CI, nombre y apellido.
+Group Loans: Almacena la información como, grupo, importe del préstamo, tipo de interés, fecha de inicio, fecha de finalización, estado y asesor
+Individual Loans: Almacena la información como, miembro, préstamo colectivo, importe del préstamo individual, tipo de interés individual y saldo restante
+Individual Payment Plans: Almacena la información como,  préstamo individual, número de cuota, fecha de vencimiento, importe total, importe del capital, importe de los intereses, fecha de pago, importe pagado y si es puntual 
+Members: Almacena la información como, nombre, apellido, CI, ocupación, salario, estado civil, número de hijos, número de celular, dirección, email, cumpleaños, género y día de registro.
+Savings Group: Almacena la información como, nombre del grupo, fecha de creación, líder, secretario y el tesorero. 
 
-#Documentación Swagger
-La documentación Swagger se encuentra en el archivo swagger.yaml. Puedes visualizarla en Swagger Editor importando este archivo. La documentación incluye detalles sobre los endpoints, los métodos HTTP permitidos, los parámetros de entrada y salida, así como ejemplos de solicitudes y respuestas.
+## Documentación Swagger
+La documentación incluye detalles sobre los endpoints, los métodos HTTP permitidos, los parámetros de entrada y salida, así como ejemplos de solicitudes y respuestas para cada una de las 6 entidades.
 
-#Tecnologías Utilizadas
-Base de Datos: Se ha utilizado [Nombre del Sistema de Gestión de Bases de Datos (por ejemplo, MySQL, PostgreSQL)] para la implementación de la base de datos.
-Lenguaje de Programación: [Nombre del Lenguaje de Programación utilizado] para el desarrollo de scripts, procedimientos almacenados y lógica de negocios.
+## Tecnologías Utilizadas
 Swagger: Utilizado para documentar la API de la base de datos.
-Instrucciones de Uso
-Configuración de la Base de Datos: Asegúrate de tener un sistema de gestión de bases de datos instalado y configurado. Ejecuta los scripts de creación de tablas y procedimientos almacenados que se encuentran en la carpeta scripts.
+Nest: Para construir el programa.
 
-Despliegue de la API: [Instrucciones para implementar la API, si es necesario].
+## Documentación
+Manual de Usuario - ()
 
-Consulta de la Documentación: Accede a la documentación Swagger para conocer los detalles de la API, cómo interactuar con ella y los formatos de datos esperados.
-
-#Contribuciones
+## Contribuciones
 Las contribuciones son bienvenidas. Si encuentras problemas, tienes sugerencias de mejora o deseas agregar nuevas características, no dudes en abrir un problema o enviar una solicitud de extracción.
