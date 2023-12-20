@@ -22,7 +22,8 @@ Swagger: Utilizado para documentar la API de la base de datos.
 Nest: Para construir el programa.
 
 ## Documentación
-Manual de Usuario - ()
+Manual de Usuario - (https://docs.google.com/document/d/1zq4jRy52VsyA7mzfW7IJ6yingJkKFhE0mYUdRF9n5OI/edit?usp=sharing)
+Video explicativo: (https://www.youtube.com/watch?v=sGkYvSEo-RY)
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Si encuentras problemas, tienes sugerencias de mejora o deseas agregar nuevas características, no dudes en abrir un problema o enviar una solicitud de extracción.
